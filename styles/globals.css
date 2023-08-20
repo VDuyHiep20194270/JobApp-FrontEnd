@@ -1,0 +1,143 @@
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+}
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+main {
+  min-height: calc(100vh - 48px);
+}
+
+.icons {
+  border: none;
+  outline: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F1F1F3;
+}
+
+.logo-sider {
+  height: 32px;
+  margin: 16px 16px 30px 16px;
+  background: #041629;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-avatar-sider {
+  width: 36px;
+  height: 36px;
+  border: solid 1.5px white;
+  border-radius: 6px;
+  overflow: hidden
+}
+
+.big-title {
+  color: #161922;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 43.7px;
+}
+
+.sub-title {
+  color: #000000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.ant-btn-primary {
+  background-color: #1677ff;
+}
+
+.signin-form {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 12px 48px rgb(26 33 52 / 11%);
+  max-width: 460px;
+  min-width: 320px;
+  padding: 32px;
+  width: 100%;
+  height: fit-content;
+}
+
+.signup-form {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 12px 48px rgb(26 33 52 / 11%);
+  max-width: 800px;
+  min-width: 600px;
+  padding: 32px;
+  width: 100%;
+  height: fit-content;
+}
+
+.bg-screen {
+  min-width: 100vw;
+  min-height: 100vh;
+  background: no-repeat left 0 top 200px url('../public/background-pre.jpg');
+}
+
+.ant-select-selector {
+  height: 40px !important;
+}
+
+.ant-select-selector span {
+  margin-top: 4px !important;
+}
+
+.ant-picker-input {
+  height: 31px;
+}
+
+.ant-input-number-input-wrap {
+  height: 100%;
+}
+
+.ant-input-number-input {
+  height: 100% !important;
+}
+
+.ant-form-item-explain-error {
+  margin-top: -3px !important;
+}
+
+p {
+  margin: 0px
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
